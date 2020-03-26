@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimpleCalculator.APIs</name>
+    </assembly>
+    <members>
+        <member name="M:SimpleCalculator.APIs.Controllers.SimpleCalculatorController.#ctor(SimpleCalculator.Lib.ISimpleCalculator)">
+            <summary>
+            Get SimpleCalculator from IoC container
+            </summary>
+            <param name="simplecalculator"></param>
+        </member>
+        <member name="M:SimpleCalculator.APIs.Controllers.SimpleCalculatorController.Add(SimpleCalculator.APIs.Controllers.SimpleCalculatorData)">
+            <summary>
+            Add two integer numbers
+            </summary>
+            <param name="input"></param>
+            <returns>Result as integer</returns>
+        </member>
+        <member name="M:SimpleCalculator.APIs.Controllers.SimpleCalculatorController.Subtract(SimpleCalculator.APIs.Controllers.SimpleCalculatorData)">
+            <summary>
+            Subtract two integer numbers value1 - value2
+            </summary>
+            <param name="input"></param>
+            <returns>Result as integer</returns>
+        </member>
+        <member name="M:SimpleCalculator.APIs.Controllers.SimpleCalculatorController.Multiply(SimpleCalculator.APIs.Controllers.SimpleCalculatorData)">
+            <summary>
+            Multiply two integer numbers
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleCalculator.APIs.Controllers.SimpleCalculatorController.Divide(SimpleCalculator.APIs.Controllers.SimpleCalculatorData)">
+            <summary>
+            Divide 
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SimpleCalculator.APIs.Controllers.SimpleCalculatorData">
+            <summary>
+            Input data structure to pass information to API in json format
+            </summary>
+        </member>
+    </members>
+</doc>
